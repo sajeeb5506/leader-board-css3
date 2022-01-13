@@ -5,6 +5,58 @@ body {
     background-color: #F3F1FF;
 }
 
+/* 
+header */
+.top-header {
+    height: 94px;
+    width: 1440px;
+    background-color: #562EFF;
+
+}
+
+.header {
+    display: flex;
+}
+
+.menu-item {
+    margin-left: 490px;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 202px;
+
+
+}
+
+.logo .logo-img {
+    height: 40px;
+    width: 50px;
+    color: white;
+}
+
+.logo-heading {
+    color: white;
+    font-size: 24px;
+}
+
+.menu-item li {
+    display: inline;
+}
+
+.menu-item ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+
+
 /* top playera-style */
 main {
     display: flex;
@@ -133,11 +185,24 @@ hr {
     color: #AEAEAE;
 }
 
+.course-athor {
+    color: #ED6B4F;
+}
+
+.course-duration {
+    background-color: #f0b8ab;
+    border-radius: 50px;
+    padding: 2px 5px;
+    color: #FF4A60;
+}
+
 /* media-queries */
 
 
 /* mobile devices */
 @media only screen and (max-width:688px) {
+
+
     .container {
         width: 100%;
     }
